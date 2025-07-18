@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ollama pull:*)",
+      "Bash(rm:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(pip install:*)",
+      "Bash(python3 -m pip install:*)",
+      "Bash(brew install:*)",
+      "Bash(source:*)",
+      "Bash(streamlit run:*)",
+      "Bash(python3:*)",
+      "Bash(python test_elevenlabs_direct.py:*)",
+      "Bash(ls:*)",
+      "Bash(python:*)",
+      "Bash(find:*)"
+    ],
+    "deny": []
+  }
+}
